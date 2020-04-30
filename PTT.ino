@@ -16,7 +16,7 @@ void setup()
 void loop()
 {
   
-  //Keep in mind: this code was designed to work with common anode RGB LED. So, when you want some color ON, you pull it down.)
+  //Keep in mind: this code was designed to work with common anode RGB LED. So, when you want some color ON, you turn the digital pins OFF.)
   //Sets up LED full RED, to indicate when it is on)
   digitalWrite(9, 0);
   digitalWrite(10, 1);
